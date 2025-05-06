@@ -34,6 +34,11 @@ spring:
             user-info-uri: https://www.googleapis.com/oauth2/v3/userinfo
             user-name-attribute: email
 
+firebase:
+  service-account-file: Pafbackend/src/main/resources/firebase-service-account.json
+  storage-bucket: paf-powerfitness.appspot.com
+
+
 logging:
   level:
     org.springframework.security: DEBUG
